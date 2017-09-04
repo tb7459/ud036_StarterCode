@@ -33,7 +33,7 @@ dp = media.Movie("Deadpool", "A not-so-super superhero battles his creator",
                  "https://www.youtube.com/watch?v=ONHBaC-pfsk")
 princess_bride = media.Movie("The Princess Bride", "As you wish...",
                              pbPic,
-                             "https://www.youtube.com/watch?v=GNvy61LOqY0")
+                             "https://www.youtube.com/watch?v=YU_-MUJRgyQ")
 wc = media.Movie("Warcraft", "A pc game comes to the theater",
                  wcPic,
                  "https://www.youtube.com/watch?v=RhFMIRuHAL4")
