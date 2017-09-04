@@ -2,8 +2,8 @@
 import fresh_tomatoes
 import media
 
-# create instances of the Movie object below for avatar,prometheus
-# wonder woman, deadpool, princess bride, and warcraft
+# create variables to hold the links for each picture
+# keeping length less than 80 characters.
 avatarPic = "https://upload.wikimedia.org/wikipedia/"
 avatarPic = avatarPic + "en/b/b0/Avatar-Teaser-Poster.jpg"
 promPic = "https://20ui41tp7v127j03rcnp97oh-wpengine.netdna-ssl.com/"
@@ -17,6 +17,8 @@ pbPic = pbPic + "3zluGjAUwlA/s1600/princess-bride.jpg"
 wcPic = "http://f.ptcdn.info/049/037/000/"
 wcPic = wcPic + "nx8f2tnujPE0mnzOa8U-o.jpg"
 
+# create instances of the Movie object below for avatar,prometheus
+# wonder woman, deadpool, princess bride, and warcraft
 avatar = media.Movie("Avatar", "A marine on an alien Planet",
                      avatarPic,
                      "https://www.youtube.com/watch?v=5PSNL1qE6VY")
